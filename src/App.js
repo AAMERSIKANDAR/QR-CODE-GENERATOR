@@ -30,7 +30,7 @@ const callApi=(firstname,lastname, email,notes, index)=> {
     console.log('myblob objectURL', objectURL)
     myImage.src = objectURL
   });
-  }, 100);
+  }, 100); 
 }
 
 export default function App() {
